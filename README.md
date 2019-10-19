@@ -17,13 +17,13 @@ Calculating the absorption probability in the Markov chain so obtained, yields t
 ## Installation
 
 ```
-$ pip install automata-lib
+$ pip3 install automata-lib
 ```
 
 ## Usage
 
 ```
-$ python toss.py
+$ python3 toss.py
 $ pattern=HHT
 $ 8.0
 ```
