@@ -98,9 +98,7 @@ def markovChain(pattern):
 	return x[i]
 
 
-pattern = input("pattern=")
-for i in pattern:
-	if not i == 'H' and not i == 'T':
-		print("Invalid Pattern")
-		exit()
-print(markovChain(pattern))
+if __name__ == "__main__":
+	pattern = input("pattern=")
+	assert all(map(lambda i: i in "HT", pattern))
+	print(markovChain(pattern))
